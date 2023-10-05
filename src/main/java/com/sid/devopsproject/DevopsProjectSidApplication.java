@@ -7,11 +7,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
-public class DevopsProjectApplication {
+public class DevopsProjectSidApplication {
 	@GetMapping
 	public String message() { return "welcome from sidaoui"; }
 	public static void main(String[] args) {
-		SpringApplication.run(DevopsProjectApplication.class, args);
+		SpringApplication.run(DevopsProjectSidApplication.class, args);
 	}
 
 }
